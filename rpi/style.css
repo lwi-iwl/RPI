@@ -1,0 +1,657 @@
+@import "fonts/fonts.css";
+
+body
+{
+    text-align: center;
+    font-family: "Gotham Rounded";
+    padding: 0;
+    margin: 0;
+} 
+
+.yourlife{
+    width: 1280px;
+    height: 745px;
+    margin: 0 auto;
+    background-image: url(img/background.png);
+}
+
+header
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.header_blocks
+{
+    width: 812px;
+    display: flex;
+    justify-content: left;
+}
+
+.header_block
+{
+    display: inline-block;
+    margin: 38px;
+}
+
+.header_block:hover
+{
+    cursor: pointer; 
+}
+
+.navigation
+{
+    margin-top: 11.5px;
+    font-size: 15.5px;
+    letter-spacing: 2.9px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(white, white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .6s;
+}
+
+.navigation:hover
+{
+    background-size: 100% 2px;   
+}
+
+.yourlife h1 {
+    font-family: "Gotham Rounded";
+    letter-spacing: 5.4px;
+    font-size: 27pt;
+    color: white;
+    margin-left: 7px;
+    margin-top: 197px;
+    height: 26px;
+}
+
+.yourlife header h1
+{
+    display: none;
+}
+
+.yourlife h4
+{
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.45px;
+    font-size: 11.8pt;
+    font-weight: medium;
+    color: white;
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+#yourlife_button
+{
+    padding-top: 5px;
+    padding-left: 8px;
+    width: 167px;
+    height: 48.5px;
+    border-radius: 3px;
+    border:none;
+    font-family: "Gotham Rounded";
+    letter-spacing: 1.8px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: white;
+    background-color:#0ea187;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+#yourlife_button:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+}
+
+.snses
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 214px;
+}
+
+
+.sns:hover
+{
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+
+
+.rappresent
+{
+    position: relative;
+    text-align: left;
+    width: 1280px;
+    height: 492px;
+    margin: 0 auto;
+    background-color: #f5f6f7;
+}
+
+
+.rappresent h2
+{
+    margin: 0;
+    width: 400px;
+    text-align: left;
+    padding-top: 109px;
+    padding-left: 128px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 3px;
+    font-size: 13.2pt;
+    font-weight: medium;
+    color: #0ea187;
+}
+
+
+.rappresent h4
+{
+    position:absolute;
+    margin: 0;
+    width: 450px;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 128px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 1.45px;
+    font-size: 9.5pt;
+    font-weight: normal;
+}
+
+
+
+.rappresent mark
+{
+    font-family: "Gotham Rounded";   
+    font-weight: bold;
+    background-color: #f5f6f7;
+}
+
+
+#rappresent_button
+{
+    padding-top: 5px;
+    padding-left: 8px;
+    height: 51px;
+    border-radius: 3px;
+    border:none;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.1px;
+    font-size: 8.7pt;
+    font-weight: bold;
+    color: white;
+    background-color:#0ea187;
+    margin-left: 129px;
+    width: 192px;
+    margin-top: 200px;
+}
+
+#rappresent_button:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+}
+
+.iphone
+{
+    width: 645px;
+    height:100px;
+    /*margin-top: 130px;
+    margin-right: 125px;*/
+    margin-right: 125px;
+    margin-top: 91px;
+    float: right
+}
+
+
+.design
+{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    text-align: right;
+    width: 1280px;
+    height: 558px;
+    margin: 0 auto;
+    background-image: linear-gradient(white, white);
+}
+
+
+.textblock
+{
+    display: block;
+    text-align: left;
+}
+
+
+.design h2
+{
+    margin: 0;
+    height: 102px;
+    width: 400px;
+    text-align: left;
+    padding-top: 142px;
+    margin-left: 267px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.5px;
+    font-size: 13.5pt;
+    font-weight: medium;
+    color: #0ea187;
+}
+
+
+.design h4
+{
+    margin: 0;
+    width: 450px;
+    line-height: 22.3px;
+    text-align: left;
+    margin-top: -46px;
+    margin-left: 270px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 1.65px;
+    font-size: 9.2pt;
+    font-weight: normal;
+}
+
+
+.h6block
+{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 268px;
+}
+
+
+.design h6
+{
+    letter-spacing: 1.5px;
+    font-family: "Gotham Rounded";
+    font-weight: bold;
+    display: inline;
+    font-size: 9.2pt;
+    text-align: left;
+}
+
+.design mark
+{
+    font-family: "Gotham Rounded";   
+    font-weight: bold;
+    background-color: white;
+}
+
+
+#design_button
+{
+    padding-top: 1px;
+    padding-left: 3px;
+    height: 51px;
+    border:none;
+    border-radius: 0px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.1px;
+    font-size: 8.7pt;
+    font-weight: bold;
+    color: white;
+    background-color:#0ea187;
+    margin-left: 268px;
+    width: 192.5px;
+    margin-top: 38px;
+}
+
+#design_button:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+}
+
+.design_img
+{
+    width: 11px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.design_img:hover
+{
+    
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.iphone2
+{
+    width: 645px;
+    /*margin-top: 130px;
+    margin-right: 125px;*/
+    margin-left: -207px;
+    margin-top: 145px;
+    float: left
+}
+
+
+.community
+{
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 483px;
+    margin: 0 auto;
+    background-image: linear-gradient(#f5f6f7, #f5f6f7);
+}
+
+.community_arrows
+{
+    display: flex;
+    width: 100px;
+    margin-left: 1113px;
+    padding-top: 95px;
+}
+
+.community_column
+{
+    margin: 0 auto;
+    margin-top:5px;
+    display: flex;
+    width:1280px;
+    height:244px
+}
+
+.community_text
+{
+    margin: 0px;
+    width:370px;
+    height:244px;
+    text-align: center;
+}
+
+.community_img
+{
+    width:800px;
+    height:244px;
+    text-align: left;
+    margin-top: 1px;
+}
+
+
+.community h2
+{
+    margin: 0;
+    height: 33px;
+    width: 400px;
+    padding-left: 128px;
+    padding-top: 23px;
+    text-align: left;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.4px;
+    font-size: 12pt;
+    font-weight: medium;
+}
+
+
+.community h6
+{
+    width: 150px;
+    margin-left: 143px;
+    margin-top: 6px;
+    letter-spacing: 1.5px;
+    font-family: "Gotham Rounded";
+    font-weight: bold;
+    font-size: 7.5pt;
+    text-align: center;
+}
+
+
+.subscribe
+{
+    text-align: right;
+    width: 1280px;
+    height: 790px;
+    margin: 0 auto;
+    background-image: url(img/Livello7.png);
+}
+
+.subscribe h1
+{
+    margin: 0px;
+    padding-top: 347px;
+    font-family: "Gotham Rounded";
+    letter-spacing: 3.6px;
+    font-size: 18pt;
+    color: white;
+    margin-right: 397px;
+    margin-bottom: -3px;
+    height: 26px;
+}
+
+
+.subscribe_input
+{
+    margin-top: 35px;
+    margin-left: 468px;
+    display: flex;
+}
+
+
+#input
+{
+    padding-left: 20px;
+    display: inline;
+    font-family: "Gotham Rounded";
+    font-size: 12.2pt;
+    border:none;
+    font-weight: bold;
+    border-radius: 2.3px;
+    margin-right: -5px;
+    width:262px;
+    height: 58px;
+    letter-spacing: 3px;
+}
+
+input[type="email"]::placeholder
+{ 
+    color: black;
+    font-family: "Gotham Rounded";
+    font-size: 12.2pt;
+    letter-spacing: 2.3px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#subscribe_button
+{
+    display: inline;
+    border:none;
+    border-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color:#0ea187;
+    width: 63px;
+    height: 60px;
+}
+
+#subscribe_button:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+    border:none;
+    margin-left: -1px;
+}
+
+.download
+{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 397px;
+    background-color: #f5f6f8
+}
+
+
+.download h2
+{
+    margin: 0px;
+    padding-top: 87px;
+    text-align: center;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.7px;
+    font-size: 15.3pt;
+    font-weight: bold;
+}
+
+.download h4
+{
+    width:890px;
+    padding-top:6px;
+    line-height: 22.5px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Gotham Rounded";
+    letter-spacing: 1.7px;
+    font-size: 9.1pt;
+    font-weight: bold;
+}
+
+.download_buttons
+{
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 129px;
+}
+
+
+.download_appstore
+{
+    display: flex;
+    margin-left: 200px;
+}
+
+.download_google
+{
+    display: flex;
+    margin-left: 26px;
+}
+
+#download_button
+{
+    border:none;
+    border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    color: white;
+    background-color:#14bd9c;
+    width: 240px;
+    height: 55px;
+    font-family: "Gotham Rounded";
+    font-weight: bold;
+    font-size: 12pt;
+    letter-spacing: 2.3px;
+    padding-top: 7px;
+    padding-right: 55px;
+}
+
+#download_button:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+}
+
+#download_icon
+{
+    display: inline;
+    border:none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    color: white;
+    background-color:#0ea187;
+    width: 56.5px;
+    height: 55px;
+    font-family: "Gotham Rounded";
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+
+#download_icon:hover
+{
+    background-color:#12806a;
+    cursor: pointer; 
+}
+
+
+
+footer
+{
+    margin: 0 auto;
+    width: 1280px;
+    height: 88px;
+    background-color: white
+}
+
+
+.footer_navigation
+{
+    margin-top:0px;
+    margin-left: 116px;
+    height: 30px;
+    width:1280px;
+    display: flex;
+}
+
+._navigation
+{
+    height: 15px;
+    border-right-style:groove;
+    border-right-color: #14bd9c;
+    border-right-width: 2px;
+    margin-top: 11.5px;
+    font-size: 13.9px;
+    letter-spacing: 2.1px;
+    font-weight: bold;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .6s;
+    padding-right: 8px;
+    margin-left: 10px;
+}
+
+._navigation:hover
+{
+    background-size: 100% 2px;  
+    cursor: pointer;  
+}
+
+footer h6
+{
+    margin-left: 126px;
+    margin-top:14px;
+    line-height: 22.5px;
+    text-align: left;
+    font-family: "Gotham Rounded";
+    letter-spacing: 1.75px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.footer_img
+{
+    float:right;
+    width:50px;
+    height:31px
+}
